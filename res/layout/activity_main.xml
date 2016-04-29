@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="常用百度Map功能集合"
+        android:textColor="#f00"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/id_line_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="线路搜索" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>
